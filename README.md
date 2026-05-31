@@ -49,7 +49,8 @@ dentro de un `useMemo` para no recalcularlo en cada render.
 ### 🔍 Análisis del Profiler — useMemo
 
 #### ANTES de useMemo
-<img width="1765" height="1071" alt="Captura de pantalla 2026-05-30 162552" src="https://github.com/user-attachments/assets/2a1444a0-67cd-40d5-a499-d5e272083de0" />
+<img width="451" height="723" alt="image" src="https://github.com/user-attachments/assets/9ea00519-b45f-47d3-a0f6-a2fc892430bf" />
+
 
 Sin useMemo, cada letra escrita en el buscador provocaba que todos los 
 componentes se recargen incluyendo JuegoCard para cada juego, 
@@ -107,42 +108,36 @@ el trabajo del navegador.
 
 ---
 
-## 🚀 Cómo correr localmente
+## 🚀 Cómo probar la aplicaicón localmente
 
 ### Requisitos previos
 - Node.js 18 o superior
 - npm 9 o superior
 - Git
+### Instrucciones generales
+Por cada acción listada a continuación ejecutar los comandos correspondientes en una terminal tipo cammand prompt distinta para cada acción. 
 
 ### 1. Clonar el repositorio
-\`\`\`bash
-git clone https://github.com/Guate27/Proyecto-Final-Sistemas-y-Tecnolog-as-Web-.git
-cd Proyecto-Final-Sistemas-y-Tecnolog-as-Web-
-\`\`\`
+1. git clone https://github.com/Guate27/Proyecto-Final-Sistemas-y-Tecnolog-as-Web-.git
 
 ### 2. Levantar el backend
-\`\`\`bash
-cd backend
-npm install
-node src/index.js
-\`\`\`
-El backend correrá en `http://localhost:3001`
+1. cd Proyecto-Final-Sistemas-y-Tecnolog-as-Web-
+2. cd backend
+3. npm install
+4. node src/index.js
+5. Acceder al backend ejecutado: `http://localhost:3001`
 
 ### 3. Levantar el frontend
-\`\`\`bash
-cd frontend
-npm install
-npm run dev
-\`\`\`
-El frontend correrá en `http://localhost:5173`
+1. cd Proyecto-Final-Sistemas-y-Tecnolog-as-Web-
+2. cd frontend
+3. npm install
+4. npm run dev
+5. Acceder al frotend ejecutado: `http://localhost:5173`
 
 ### 4. (Opcional) Configurar variable de entorno del frontend
 Crear un archivo `frontend/.env` con:
-\`\`\`
 VITE_API_URL=http://localhost:3001
-\`\`\`
 
----
 
 ## 🎮 Mis primeros Items (Fase 1)
 
