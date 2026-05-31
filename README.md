@@ -1,5 +1,3 @@
-
-
 ## 👤 Mi información 
 
 - **Nombre:** Julio Reynaldo Pellecer Morales 
@@ -59,7 +57,8 @@ se ejecutaba en cada render y producía un array nuevo, lo que React
 interpretaba como un cambio de props.
 
 #### DESPUÉS de useMemo
-<img width="1906" height="1064" alt="Captura de pantalla 2026-05-30 164133" src="https://github.com/user-attachments/assets/b400eef0-64b6-4deb-b623-cc1334433a73" />
+<img width="1765" height="1071" alt="Captura de pantalla 2026-05-30 162552" src="https://github.com/user-attachments/assets/1dc841c1-e682-414e-89fe-4230264cf611" />
+
 
 Con useMemo, la lista filtrada solo se recalcula cuando cambian lista, 
 filtroCategoria, filtroEstado o busqueda. Los componentes JuegoCard 
