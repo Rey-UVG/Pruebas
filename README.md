@@ -118,17 +118,17 @@ el trabajo del navegador.
 ### Instrucciones generales
 Por cada acción listada a continuación ejecutar los comandos correspondientes en una terminal tipo cammand prompt distinta para cada acción. 
 
-### Clonar el repositorio
+#### - Clonar el repositorio
 1. git clone https://github.com/Guate27/Proyecto-Final-Sistemas-y-Tecnolog-as-Web-.git
 
-### Levantar el backend
+#### - Levantar el backend
 1. cd Proyecto-Final-Sistemas-y-Tecnolog-as-Web-
 2. cd backend
 3. npm install
 4. node src/index.js
 5. Acceder al backend ejecutado: `http://localhost:3001`
 
-### Levantar el frontend
+#### - Levantar el frontend
 1. cd Proyecto-Final-Sistemas-y-Tecnolog-as-Web-
 2. cd frontend
 3. npm install
