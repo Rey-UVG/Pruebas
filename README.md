@@ -135,7 +135,7 @@ Por cada acción listada a continuación ejecutar los comandos correspondientes 
 4. npm run dev
 5. Acceder al frotend ejecutado: `http://localhost:5173`
 
-### - Configurar variable de entorno del frontend
+### - (Opcional) Configurar variable de entorno del frontend
 Crear un archivo `frontend/.env` con:
 VITE_API_URL=http://localhost:3001
 
