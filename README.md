@@ -69,9 +69,11 @@ el trabajo del navegador.
 
 ## 🔗 URLs
 
-🌐 Aplicación Web Pública [proyecto-final-sistemas-y-tecnolog.vercel.app](https://proyecto-final-sistemas-y-tecnolog.vercel.app) |
-⚙️ Backend API | [backlog-personal-backend.onrender.com](https://backlog-personal-backend.onrender.com) |
-📦 Repositorio | [GitHub](https://github.com/Guate27/Proyecto-Final-Sistemas-y-Tecnolog-as-Web-) |
+- 🌐 Aplicación Web Pública [proyecto-final-sistemas-y-tecnolog.vercel.app](https://proyecto-final-sistemas-y-tecnolog.vercel.app) |
+  
+- ⚙️ Backend API | [backlog-personal-backend.onrender.com](https://backlog-personal-backend.onrender.com) |
+  
+- 📦 Repositorio | [GitHub](https://github.com/Guate27/Proyecto-Final-Sistemas-y-Tecnolog-as-Web-) |
 
 
 ## 📸 Screenshots
