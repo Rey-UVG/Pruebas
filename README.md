@@ -109,7 +109,7 @@ el trabajo del navegador.
 
 ---
 
-## 🚀¿Cómo probar la aplicaicón?
+## 🚀¿Cómo probar la aplicación?
 
 ### Requisitos previos
 - Node.js 18 o superior
