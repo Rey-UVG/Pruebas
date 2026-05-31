@@ -1,3 +1,5 @@
+
+
 ## 👤 Mi información 
 
 - **Nombre:** Julio Reynaldo Pellecer Morales 
@@ -7,18 +9,17 @@
 
 # 🎮 Mi Backlog Personal
 
-Aplicación full-stack para gestionar y dar seguimiento a tu colección personal de videojuegos. Permite registrar juegos, cambiar su estado (pendiente, jugando, completado, abandonado), visualizar estadísticas y persistir datos tanto en LocalStorage como en una base de datos remota.
+Aplicación full-stack para gestionar tu colección personal de videojuegos. Permite registrar juegos, cambiar su estado (pendiente, jugando, completado, abandonado), visualizar estadísticas y persistir datos tanto en LocalStorage como en una base de datos remota.
 
 
 
 ### 📊 Mi gráfica original — Juegos por estado
 
 La gráfica de distribución por estado muestra cuántos juegos tengo en cada etapa 
-de mi backlog (pendiente, jugando, completado, abandonado). La elegí porque es la 
-información más útil para un backlog personal — de un vistazo puedo ver si tengo 
+disponible de mi backlog (pendiente, jugando, completado, abandonado). La elegí porque me
+parece que es la información más útil para un backlog personal. Con ella puedo ver si tengo 
 demasiados juegos abandonados o si estoy jugando varios a la vez. Cada barra tiene 
-su propio color para distinguir visualmente cada estado sin necesidad de leer las etiquetas.
-
+su propio color para distinguir cada estado sin necesidad de leer las etiquetas.
 
 ### ⚙️ Mis 3 decisiones técnicas
 
@@ -27,30 +28,29 @@ su propio color para distinguir visualmente cada estado sin necesidad de leer la
 Organicé las acciones en dos grupos: las que modifican la lista de juegos 
 (HIDRATAR, AGREGAR, ELIMINAR, CAMBIAR_ESTADO, REGISTRAR_ACTIVIDAD) y las que 
 modifican los filtros (FILTRAR, LIMPIAR_FILTROS). Esta separación hace que el 
-reducer sea más fácil de leer y mantener, ya que cada acción tiene una 
-responsabilidad clara y no mezcla lógica de datos con lógica de UI.
+reducer sea más fácil de leer y mantener, ya que cada grupo tiene una 
+responsabilidades espicificas asingnadas, evitando problemas en la lógica. 
 
 **(2) Acción más difícil — REGISTRAR_ACTIVIDAD**
 
 Fue la más compleja porque requería actualizar un campo anidado dentro de 
-atributos.horasTotales sin mutar el estado anterior. La solución fue usar 
+`atributos.horasTotales` sin mutar el estado anterior. La solución fue usar 
 spreading en dos fases: primero copiar el item completo con ...item, y 
 luego copiar los atributos con ...item.atributos cambiando solo horasTotale`. 
 
 **(3) Gráfica más compleja — Actividad últimos 7 días**
 
-Esta gráfica fue la más difícil porque requería transformar datos. generar 
-un array de los últimos 7 días con `Array.from`, calcular cada fecha con 
-`setDate`, y luego cruzar esas fechas con la propiedad `fechaRegistro` de 
+Esta gráfica fue la más difícil porque requería transformar datos. Generar 
+un array de los últimos 7 días , calcular cada fecha con, y 
+luego comparar esas fechas con la propiedad fechaRegistro de 
 cada juego para contar cuántos fueron agregados cada día. Todo esto se realiza
-dentro de un `useMemo` para no recalcularlo en cada render.
+dentro de un useMemo para que no se recalcule en cada render.
 
 
 ### 🔍 Análisis del Profiler — useMemo
 
 #### ANTES de useMemo
 <img width="451" height="723" alt="image" src="https://github.com/user-attachments/assets/9ea00519-b45f-47d3-a0f6-a2fc892430bf" />
-
 
 Sin useMemo, cada letra escrita en el buscador provocaba que todos los 
 componentes se recargen incluyendo JuegoCard para cada juego, 
@@ -69,9 +69,9 @@ el trabajo del navegador.
 
 ## 🔗 URLs
 
-- 🌐 Aplicación Web Pública [proyecto-final-sistemas-y-tecnolog.vercel.app](https://proyecto-final-sistemas-y-tecnolog.vercel.app) |
+- 🌐 Aplicación Web Pública| [proyecto-final-sistemas-y-tecnolog.vercel.app](https://proyecto-final-sistemas-y-tecnolog.vercel.app)
   
-- ⚙️ Backend API | [backlog-personal-backend.onrender.com](https://backlog-personal-backend.onrender.com) |
+- ⚙️ Backend API | [backlog-personal-backend.onrender.com](https://backlog-personal-backend.onrender.com)
   
 - 📦 Repositorio | [GitHub](https://github.com/Guate27/Proyecto-Final-Sistemas-y-Tecnolog-as-Web-) |
 
@@ -110,7 +110,7 @@ el trabajo del navegador.
 
 ---
 
-## 🚀 Cómo probar la aplicaicón localmente
+## 🚀¿Cómo probar la aplicaicón?
 
 ### Requisitos previos
 - Node.js 18 o superior
