@@ -80,11 +80,6 @@ Durante la Fase 4 creé 4 custom hooks para reutilizar lógica y mantener el có
 - **useEstadisticasBacklog**: Hook de dominio específico del proyecto. Calcula estadísticas del backlog (total, completados, jugando, pendientes, horas totales y porcentaje completado) usando `useMemo` para optimizar el cálculo.
 
 
-## 🔗 URLs
-  
-- 📦 Repositorio | [GitHub](https://github.com/Guate27/Proyecto-Final-Sistemas-y-Tecnolog-as-Web-) 
-
-
 ## 📸 Screenshots
 
 <img width="1919" height="1151" alt="image" src="https://github.com/user-attachments/assets/afc3e147-f754-4b5e-bc82-07f98600586b" />
