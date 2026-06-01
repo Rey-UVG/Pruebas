@@ -27,7 +27,7 @@ Organicé las acciones en dos grupos: las que modifican la lista de juegos
 (HIDRATAR, AGREGAR, ELIMINAR, CAMBIAR_ESTADO, REGISTRAR_ACTIVIDAD) y las que 
 modifican los filtros (FILTRAR, LIMPIAR_FILTROS). Esta separación hace que el 
 reducer sea más fácil de leer y mantener, ya que cada grupo tiene una 
-responsabilidades espicíficas asingnadas, evitando problemas en la lógica. 
+responsabilidades específicas asignadas, evitando problemas en la lógica. 
 
 **(2) Acción más difícil — REGISTRAR_ACTIVIDAD**
 
@@ -112,7 +112,7 @@ Durante la Fase 4 creé 4 custom hooks para reutilizar lógica y mantener el có
 
 ### Backend
 - Node.js: Entorno local de ejecución para código JavaScript
-- Express:  Librería para el desarrollo de servidore
+- Express:  Librería para el desarrollo de servidores
 - better-sqlite3: Base de datos Local
 -  dotenv: Variables de entorno
 
@@ -130,7 +130,7 @@ Durante la Fase 4 creé 4 custom hooks para reutilizar lógica y mantener el có
 - npm 9 o superior
 - Git
 ### Instrucciones generales
-Por cada acción listada a continuación ejecutar los comandos correspondientes en una terminal tipo cammand prompt distinta para cada acción. 
+Por cada acción listada a continuación ejecutar los comandos correspondientes en una terminal distinta para cada acción. 
 
 ### - Clonar el repositorio
 1. git clone https://github.com/Guate27/Proyecto-Final-Sistemas-y-Tecnolog-as-Web-.git
@@ -170,7 +170,7 @@ Este item permitió verificar que el flujo de creación, lectura, edición y eli
 ### Tema claro
 - | `--color-fondo` | `#f7f7f8` | Tonalidad de gris para la base o fondo  
 - | `--color-superficie` | `#f0f0f2` | Un poco más oscuro que el fondo para distinguir tarjetas y formularios 
-- | `--color-texto` | `#1a1a1a` | Negro para que sea más fácil de distinguir la informaión 
+- | `--color-texto` | `#1a1a1a` | Negro para que sea más fácil de distinguir la información 
 - | `--color-texto-secundario` | `#6b7280` | Gris para información secundaria   
 - | `--color-acento` | `#4f46e5` | Morado
 - | `--color-borde` | `#e5e7eb` | Gris para definir los límites del contenido 
