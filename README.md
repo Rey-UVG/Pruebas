@@ -156,7 +156,7 @@ La aplicación cuenta con dos modos de almacenamiento que se pueden seleccionar 
 
 **Modo Local (💾 Local):** Los juegos se guardan únicamente en el navegador (LocalStorage). Los datos persisten al recargar la página pero son privados de cada navegador.
 
-**Modo API (🌐 API):** Los juegos se guardan en el backend desplegado en Render. La primera petición puede tardar hasta 50 segundos porque el servidor gratuito de Render se duerme cuando no se usa, pero después responde inmediatamente.
+**Modo API (🌐 API):** Los juegos se guardan en el backend desplegado en Render.
 
 ### - Verificar que el backend está activo
 Se puede comprobar que el backend está funcionando accediendo directamente a:
