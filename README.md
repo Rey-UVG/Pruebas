@@ -87,14 +87,13 @@ Durante la Fase 4 creé 4 custom hooks para reutilizar lógica y mantener el có
 
 ## 📸 Screenshots
 
-<img width="1918" height="1066" alt="Captura de pantalla 2026-05-31 141858" src="https://github.com/user-attachments/assets/d8ac405a-6936-457c-9245-c61220d66369" />
+<img width="1917" height="1149" alt="image" src="https://github.com/user-attachments/assets/98edb4b8-0c78-4e4d-a4a4-a4435ba89d06" />
 
-<img width="1911" height="1060" alt="Captura de pantalla 2026-05-31 141759" src="https://github.com/user-attachments/assets/bedc6f17-e82d-4f5a-b934-531e125b3926" />
+<img width="1918" height="1156" alt="image" src="https://github.com/user-attachments/assets/573ef0d4-205b-4af0-9b64-d741940e7c11" />
 
+<img width="1919" height="1151" alt="image" src="https://github.com/user-attachments/assets/afc3e147-f754-4b5e-bc82-07f98600586b" />
 
-<img width="1919" height="1149" alt="Captura de pantalla 2026-05-31 142028" src="https://github.com/user-attachments/assets/d0113db3-8c15-44cc-8987-697f6f4dca78" />
-
-<img width="1916" height="1069" alt="Captura de pantalla 2026-05-31 142050" src="https://github.com/user-attachments/assets/51289fdf-1efa-45ff-8ac1-f97d3e590d75" />
+<img width="1919" height="1153" alt="image" src="https://github.com/user-attachments/assets/9145fec1-fc4a-4be3-9c6f-8df76e40d4b4" />
 
 
 ## 🛠️ Stack tecnológico
