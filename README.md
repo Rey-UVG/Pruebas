@@ -198,7 +198,7 @@ Este item permitió verificar que el flujo de creación, lectura, edición y eli
 | `--color-superficie` | `#f0f0f2` | Un poco más oscuro que el fondo para distinguir tarjetas y formularios |
 | `--color-texto` | `#1a1a1a` | Negro para que sea más fácil de distinguir la información |
 | `--color-texto-secundario` | `#6b7280` | Gris para información secundaria |
-| `--color-acento` | `#4f46e5` | Morado utilizado para distinguir algunnos elementos pequeños |
+| `--color-acento` | `#4f46e5` | Morado claro utilizado para distinguir algunnos elementos pequeños |
 | `--color-borde` | `#e5e7eb` | Gris para definir los límites del contenido |
 
 ### Tema oscuro
@@ -209,7 +209,7 @@ Este item permitió verificar que el flujo de creación, lectura, edición y eli
 | `--color-superficie` | `#1e293b` | Azul oscuro más claro que el fondo |
 | `--color-texto` | `#f1f5f9` | Blanco para facilitar la lectura del contenido |
 | `--color-texto-secundario` | `#94a3b8` | Gris azulado para información secundaria |
-| `--color-acento` | `#818cf8` | Morado claro para que el contenido sea fácil de ver en fondos oscuros |
+| `--color-acento` | `#818cf8` | Morado utilizado para distinguir algunnos elementos pequeños |
 | `--color-borde` | `#334155` | Azul oscuro para definir los límites de contenido |
 
 
