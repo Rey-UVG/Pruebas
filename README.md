@@ -82,11 +82,11 @@ Durante la Fase 4 creé 4 custom hooks para reutilizar lógica y mantener el có
 
 ## 🔗 URLs
 
-- 🌐 Aplicación Web Pública| [proyecto-final-sistemas-y-tecnolog.vercel.app](https://proyecto-final-sistemas-y-tecnolog.vercel.app)
+- 🌐 Aplicación Web Pública | [proyecto-final-sistemas-y-tecnolog.vercel.app](https://proyecto-final-sistemas-y-tecnolog.vercel.app)
   
 - ⚙️ Backend API | [backlog-personal-backend.onrender.com](https://backlog-personal-backend.onrender.com)
   
-- 📦 Repositorio | [GitHub](https://github.com/Guate27/Proyecto-Final-Sistemas-y-Tecnolog-as-Web-) |
+- 📦 Repositorio | [GitHub](https://github.com/Guate27/Proyecto-Final-Sistemas-y-Tecnolog-as-Web-) 
 
 
 ## 📸 Screenshots
