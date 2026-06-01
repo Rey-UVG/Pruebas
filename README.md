@@ -191,12 +191,12 @@ Este item permitió verificar que el flujo de creación, lectura, edición y eli
 ## 🎨 Mi paleta de colores
 
 ### Tema claro
-- | `--color-fondo` | `#f7f7f8` | Tonalidad de gris para la base o fondo  
-- | `--color-superficie` | `#f0f0f2` | Un poco más oscuro que el fondo para distinguir tarjetas y formularios 
-- | `--color-texto` | `#1a1a1a` | Negro para que sea más fácil de distinguir la información 
-- | `--color-texto-secundario` | `#6b7280` | Gris para información secundaria   
-- | `--color-acento` | `#4f46e5` | Morado
-- | `--color-borde` | `#e5e7eb` | Gris para definir los límites del contenido 
+| `--color-fondo` | `#f7f7f8` | Tonalidad de gris para la base o fondo  
+| `--color-superficie` | `#f0f0f2` | Un poco más oscuro que el fondo para distinguir tarjetas y formularios 
+| `--color-texto` | `#1a1a1a` | Negro para que sea más fácil de distinguir la información 
+| `--color-texto-secundario` | `#6b7280` | Gris para información secundaria   
+| `--color-acento` | `#4f46e5` | Morado
+| `--color-borde` | `#e5e7eb` | Gris para definir los límites del contenido 
 
 ### Tema oscuro
 - | `--color-fondo` | `#0f172a` | Azul muy oscuro como base 
