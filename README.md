@@ -71,13 +71,13 @@ el trabajo del navegador.
 
 Durante la Fase 4 creé 4 custom hooks para reutilizar lógica y mantener el código limpio:
 
-- **useLocalStorage** — Sincroniza un valor de React con LocalStorage automáticamente. Reemplaza la combinación repetitiva de `useState` + `useEffect` para persistencia local.
+- **useLocalStorage**: Sincroniza un valor de React con LocalStorage automáticamente. Reemplaza la combinación repetitiva de `useState` + `useEffect` para persistencia local.
 
-- **useFetch** — Realiza peticiones HTTP con manejo automático de los estados `data`, `loading` y `error`. Implementa `AbortController` para cancelar peticiones cuando el componente se rompe.
+- **useFetch**: Realiza peticiones HTTP con manejo automático de los estados `data`, `loading` y `error`. Implementa `AbortController` para cancelar peticiones cuando el componente se rompe.
 
-- **useAtajoTeclado** — Detecta atajos de teclado (con o sin Ctrl) implementando limpieza automática del listener. Permite ignorar inputs activos para no interferir cuando el usuario está escribiendo.
+- **useAtajoTeclado**: Detecta atajos de teclado (con o sin Ctrl) implementando limpieza automática del listener. Permite ignorar inputs activos para no interferir cuando el usuario está escribiendo.
 
-- **useEstadisticasBacklog** — Hook de dominio específico del proyecto. Calcula estadísticas del backlog (total, completados, jugando, pendientes, horas totales y porcentaje completado) usando `useMemo` para optimizar el cálculo.
+- **useEstadisticasBacklog**: Hook de dominio específico del proyecto. Calcula estadísticas del backlog (total, completados, jugando, pendientes, horas totales y porcentaje completado) usando `useMemo` para optimizar el cálculo.
 
 
 ## 🔗 URLs
