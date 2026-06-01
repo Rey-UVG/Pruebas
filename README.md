@@ -123,7 +123,7 @@ Durante la Fase 4 creé 4 custom hooks para reutilizar lógica y mantener el có
 
 
 
-## 🚀¿Cómo probar la aplicación?
+## 🚀¿Cómo probar la aplicación de forma local?
 
 ### Requisitos previos
 - Node.js 18 o superior
@@ -152,6 +152,34 @@ Por cada acción listada a continuación ejecutar los comandos correspondientes 
 ### - (Opcional) Configurar variable de entorno del frontend
 Crear un archivo `frontend/.env` con:
 VITE_API_URL=http://localhost:3001
+
+## 🌐 ¿Cómo probar la aplicación en producción?
+
+La aplicación ya está desplegada y disponible públicamente en internet, no se necesita instalar nada localmente para probarla.
+
+### - Acceder a la aplicación
+1. Abrir el navegador en cualquier dispositivo
+2. Ingresar a: [proyecto-final-sistemas-y-tecnolog.vercel.app](https://proyecto-final-sistemas-y-tecnolog.vercel.app)
+
+### - Modos de uso
+La aplicación cuenta con dos modos de almacenamiento que se pueden alternar con el botón en la esquina superior derecha:
+
+**Modo Local (💾 Local):** Los juegos se guardan únicamente en el navegador (LocalStorage). Los datos persisten al recargar la página pero son privados de cada navegador.
+
+**Modo API (🌐 API):** Los juegos se guardan en el backend desplegado en Render. La primera petición puede tardar hasta 50 segundos porque el servidor gratuito de Render se duerme cuando no se usa, pero después responde inmediatamente.
+
+### - Verificar que el backend está activo
+Se puede comprobar que el backend está funcionando accediendo directamente a:
+- Estado del servidor: [backlog-personal-backend.onrender.com/health](https://backlog-personal-backend.onrender.com/health)
+- Listado de juegos: [backlog-personal-backend.onrender.com/api/items](https://backlog-personal-backend.onrender.com/api/items)
+
+### - Funcionalidades disponibles para probar
+- Agregar un juego nuevo con nombre, categoría, plataforma, horas jugadas e imagen
+- Editar cualquier juego ya creado mediante el botón ✏️ Editar
+- Cambiar el estado de un juego (pendiente, jugando, completado, abandonado)
+- Filtrar la lista por categoría, estado o texto
+- Alternar entre tema claro y oscuro
+- Usar atajos de teclado: Ctrl+K para enfocar el campo de nombre, T para cambiar el tema
 
 
 ## 🎮 Mis primeros Items (Fase 1)
