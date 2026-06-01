@@ -162,7 +162,7 @@ La aplicación ya está desplegada y disponible públicamente en internet, no se
 2. Ingresar a: [proyecto-final-sistemas-y-tecnolog.vercel.app](https://proyecto-final-sistemas-y-tecnolog.vercel.app)
 
 ### - Modos de uso
-La aplicación cuenta con dos modos de almacenamiento que se pueden alternar con el botón en la esquina superior derecha:
+La aplicación cuenta con dos modos de almacenamiento que se pueden seleccionar con el botón en la esquina superior derecha:
 
 **Modo Local (💾 Local):** Los juegos se guardan únicamente en el navegador (LocalStorage). Los datos persisten al recargar la página pero son privados de cada navegador.
 
