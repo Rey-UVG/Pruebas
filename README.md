@@ -87,11 +87,11 @@ Durante la Fase 4 creé 4 custom hooks para reutilizar lógica y mantener el có
 
 ## 📸 Screenshots
 
+<img width="1919" height="1151" alt="image" src="https://github.com/user-attachments/assets/afc3e147-f754-4b5e-bc82-07f98600586b" />
+
 <img width="1917" height="1149" alt="image" src="https://github.com/user-attachments/assets/98edb4b8-0c78-4e4d-a4a4-a4435ba89d06" />
 
 <img width="1918" height="1156" alt="image" src="https://github.com/user-attachments/assets/573ef0d4-205b-4af0-9b64-d741940e7c11" />
-
-<img width="1919" height="1151" alt="image" src="https://github.com/user-attachments/assets/afc3e147-f754-4b5e-bc82-07f98600586b" />
 
 <img width="1919" height="1153" alt="image" src="https://github.com/user-attachments/assets/9145fec1-fc4a-4be3-9c6f-8df76e40d4b4" />
 
