@@ -27,14 +27,14 @@ Organicé las acciones en dos grupos: las que modifican la lista de juegos
 (HIDRATAR, AGREGAR, ELIMINAR, CAMBIAR_ESTADO, REGISTRAR_ACTIVIDAD) y las que 
 modifican los filtros (FILTRAR, LIMPIAR_FILTROS). Esta separación hace que el 
 reducer sea más fácil de leer y mantener, ya que cada grupo tiene una 
-responsabilidades espicificas asingnadas, evitando problemas en la lógica. 
+responsabilidades espicíficas asingnadas, evitando problemas en la lógica. 
 
 **(2) Acción más difícil — REGISTRAR_ACTIVIDAD**
 
 Fue la más compleja porque requería actualizar un campo anidado dentro de 
 `atributos.horasTotales` sin mutar el estado anterior. La solución fue usar 
 spreading en dos fases: primero copiar el item completo con ...item, y 
-luego copiar los atributos con ...item.atributos cambiando solo horasTotale`. 
+luego copiar los atributos con ...item.atributos cambiando solo horasTotales. 
 
 **(3) Gráfica más compleja — Actividad últimos 7 días**
 
@@ -66,6 +66,20 @@ envueltos en React.memo dejaron de re-renderizarse al escribir en el
 buscador si el juego no estaba siendo filtrado, reduciendo significativamente 
 el trabajo del navegador.
 
+
+## 🪝 Custom Hooks utilizados (Fase 4)
+
+Durante la Fase 4 creé 4 custom hooks para reutilizar lógica y mantener el código limpio:
+
+- **useLocalStorage** — Sincroniza un valor de React con LocalStorage automáticamente. Reemplaza la combinación repetitiva de `useState` + `useEffect` para persistencia local.
+
+- **useFetch** — Realiza peticiones HTTP con manejo automático de los estados `data`, `loading` y `error`. Implementa `AbortController` para cancelar peticiones cuando el componente se rompe.
+
+- **useAtajoTeclado** — Detecta atajos de teclado (con o sin Ctrl) implementando limpieza automática del listener. Permite ignorar inputs activos para no interferir cuando el usuario está escribiendo.
+
+- **useEstadisticasBacklog** — Hook de dominio específico del proyecto. Calcula estadísticas del backlog (total, completados, jugando, pendientes, horas totales y porcentaje completado) usando `useMemo` para optimizar el cálculo.
+
+
 ## 🔗 URLs
 
 - 🌐 Aplicación Web Pública| [proyecto-final-sistemas-y-tecnolog.vercel.app](https://proyecto-final-sistemas-y-tecnolog.vercel.app)
@@ -93,12 +107,12 @@ el trabajo del navegador.
 - React: Librería UI |
 - Vite: Servidor de desarrollo frontend
 - Recharts: Visualizador de gráficas |
-- JavaScript: Lenguaje de programción para desarrollo de servicios web 
+- JavaScript: Lenguaje de programación para desarrollo de servicios web 
 - Variables CSS: Paleta de colores del sistema
 
 ### Backend
 - Node.js: Entorno local de ejecución para código JavaScript
-- Express:  Librearía para el desarrollo de servidore
+- Express:  Librería para el desarrollo de servidore
 - better-sqlite3: Base de datos Local
 -  dotenv: Variables de entorno
 
@@ -107,7 +121,7 @@ el trabajo del navegador.
 - Render: Hosting del backend
 - GitHub: Control de versiones 
 
----
+
 
 ## 🚀¿Cómo probar la aplicación?
 
@@ -133,7 +147,7 @@ Por cada acción listada a continuación ejecutar los comandos correspondientes 
 2. cd frontend
 3. npm install
 4. npm run dev
-5. Acceder al frotend ejecutado: `http://localhost:5173`
+5. Acceder al frontend ejecutado: `http://localhost:5173`
 
 ### - (Opcional) Configurar variable de entorno del frontend
 Crear un archivo `frontend/.env` con:
@@ -168,3 +182,5 @@ Este item permitió verificar que el flujo de creación, lectura, edición y eli
 - | `--color-texto-secundario` | `#94a3b8` | Gris azulado para información secundaria  
 - | `--color-acento` | `#818cf8` | Morado claro para que el contenido sea fácil de ver en fondos oscuros
 - | `--color-borde` | `#334155` | Azul oscuro para definir los límites de contenido
+
+
